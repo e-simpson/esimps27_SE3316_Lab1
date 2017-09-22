@@ -1,5 +1,19 @@
-header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
-{
+header,
+footer,
+nav,
+article,
+section,
+figure,
+figcaption,
+h1,
+h2,
+h3,
+ul,
+li,
+body,
+div,
+p,
+img {
    margin: 0;
    padding: 0;
    font-size: 100%;
@@ -7,29 +21,44 @@ header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, b
    border: 0;
 }
 
-header, footer {
-  color: #213643;
-  background-color: white;
-}
-nav {
-  background-color: #728B96;
+header,
+footer {
+   color: #213643;
+   background-color: white;
 }
 
-h1, h2, h3 {
- font-family: Georgia, Cambria, "Times New Roman", cursive;
+nav {
+   background-color: #728B96;
 }
-h1 { font-size: 250%; }
-h2 { font-size: 150%; }
-h3 { font-size: 125% } 
+
+h1,
+h2,
+h3 {
+   font-family: "Lobster", Georgia, Cambria, "Times New Roman", serif;
+}
+
+h1 {
+   font-size: 250%;
+}
+
+h2 {
+   font-size: 150%;
+}
+
+h3 {
+   font-size: 125%
+}
 
 body {
- font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Lato', Helvetica, Arial, sans‐serif;
 }
+
 
 #reviews {
    border-bottom: solid 3pt #213643;
    color: #ed8030;
 }
+
 .first {
    color: #728B96;
    font-style: italic;
@@ -39,9 +68,11 @@ a:link {
    font-weight: bold;
    color: #47B3D7;
 }
+
 a:visited {
    color: #BB78FF;
 }
+
 a:hover {
    background-color: #FFFFCC;
 }
@@ -51,9 +82,11 @@ nav ul li {
    display: inline;
    margin: 1em;
 }
+
 nav {
    padding: 0.25em;
 }
+
 nav a {
    padding: 0.25em;
 }
@@ -64,7 +97,8 @@ figure {
    padding: 1.5em;
    border: solid 1px #999999;
 }
-h3+p+p { 
+
+h3+p+p {
    margin: 2em;
 }
 
@@ -80,7 +114,3 @@ figure div {
    background-image: url(images/gray-gradient.gif);
    background-repeat: repeat-x;
 }
-
-
-
-
