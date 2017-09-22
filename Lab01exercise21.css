@@ -68,11 +68,11 @@ figure div {
 /*     background‐position: 0 4px;*/
 /*}*/
 
-span.share {
-     display: inline-block;
-     background: url(images/glyphicons-halflings.png) no-repeat;
-     width: 14px;
-     height: 14px;
-     background-position: ‐120px ‐72px;
-     padding-right: 5px;
+span.share{
+  display: inline-block;
+  background: url(images/glyphicons-halflings.png) no-repeat;
+  width: 14px;
+  height: 14px;
+  background-position: -120px -72px;  
+  padding-right: 5px;
 }
